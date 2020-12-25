@@ -1,0 +1,27 @@
+{
+  "name": "@myijun/uni-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myijun/uni-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myijun/uni-ui/issues"
+  },
+  "homepage": "https://github.com/myijun/uni-ui#readme",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.2.10"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
+  }
+}
