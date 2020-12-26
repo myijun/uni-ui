@@ -3,7 +3,8 @@
 		<view class="user-items">
 			<view class="user-item">
 				<view class="user-avatar">
-					<m-image :src="user.avatar"></m-image>
+					<!-- <m-image :src="user.avatar"></m-image> -->
+					<u-avatar :src="user.avatar" size="large" show-sex="true" show-level="true"></u-avatar>
 				</view>
 			</view>
 			<view class="user-item" v-if="!user.userId">
@@ -36,7 +37,7 @@
 		margin-right: 34rpx;
 	}
 
-	.user-avatar {
+	/* .user-avatar {
 		width: 115rpx;
 		height: 115rpx;
 		overflow: hidden;
@@ -46,7 +47,7 @@
 
 	.user-avatar image {
 		width: 100%;
-	}
+	} */
 
 	.about-self {
 		color: #FFFFFF;

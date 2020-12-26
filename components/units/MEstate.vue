@@ -64,4 +64,57 @@
 </script>
 
 <style>
+	.estate-item {
+		margin-bottom: 29rpx;
+		padding: 38rpx 0 33rpx 20rpx;
+		height: 177rpx;
+		overflow: hidden;
+		display: flex;
+		font-size: 20rpx;
+		background: #fff;
+	}
+
+	.estate-props .thumb {
+		width: 236rpx;
+		height: 177rpx;
+		overflow: hidden;
+		margin-right: 19rpx;
+		background: #F4F4F4;
+		border-radius: calc(5rpx);
+	}
+
+	.estate-props image {
+		width: 100%;
+	}
+
+	.estate-detail>view {
+		margin-bottom: 15rpx;
+	}
+
+	.estate-detail .estate-title {
+		font-weight: bold;
+		color: #2c2c2c;
+		font-size: 25rpx;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.estate-detail .yj-tags {
+		color: #E5E5E5;
+	}
+
+	.estate-detail .props {
+		display: flex;
+		color: #2466eb;
+		font-size: 18rpx;
+	}
+
+	.estate-detail .props .trait {
+		display: flex;
+	}
+
+	.estate-detail .props .trait .trait-item {
+		padding: 0 10rpx;
+	}
 </style>
