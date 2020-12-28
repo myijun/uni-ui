@@ -1,6 +1,10 @@
 <template>
 	<view class="mu-list-item">
-		123
+		<view class="item-card">
+			<view>333</view>
+			<slot></slot>
+			<view>123123</view>
+		</view>
 	</view>
 </template>
 <script>
@@ -18,7 +22,12 @@
 	export default {
 		name: 'mu-list-item',
 		props: {
+			item: {
+				type: Object,
+				default: {
 
+				}
+			}
 		},
 		data() {
 			return {

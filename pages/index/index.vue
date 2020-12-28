@@ -4,16 +4,15 @@
 	<view>
 		<!-- <web-view v-if="src" :src="src"></web-view>		 -->
 		<mu-list>
-			<mu-list-item v-for="(item,index) in datalist" :key="index">
-				
+
+			<mu-list-item v-for="(item,index) in datalist" :key="index" :item="item">
+				12312312
+				<view>{{item.data}}</view>				
 			</mu-list-item>
+
 		</mu-list>
 
 
-		<uni-list>
-			<uni-list-item title="列表文字" note="列表描述信息"></uni-list-item>
-			<uni-list-item :disabled="true" title="列表文字" note="列表禁用状态"></uni-list-item>
-		</uni-list>
 
 	</view>
 
@@ -44,33 +43,43 @@
 				"src": "",
 				datalist: [{
 						"a": 1,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					},
 					{
 						"a": 2,
+						"data": new Date
 					}
 				]
 			}

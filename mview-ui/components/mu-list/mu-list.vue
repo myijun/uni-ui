@@ -1,6 +1,6 @@
 <template>
 	<view class="mu-list" :class="'mu-list-scroll-view-'+type">
-		<scroll-view enable-flex="true" scroll-x="true">
+		<scroll-view enable-flex="true" :scroll-x="'horizontal'==type" :scroll-y="'horizontal'!=type">
 			<slot />
 		</scroll-view>
 	</view>
@@ -39,5 +39,5 @@
 
 
 <style>
-	
+
 </style>
