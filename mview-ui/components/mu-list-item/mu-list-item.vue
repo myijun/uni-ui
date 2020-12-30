@@ -1,9 +1,7 @@
 <template>
 	<view class="mu-list-item">
-		<view class="item-card">
-			<view>333</view>
-			<slot></slot>
-			<view>123123</view>
+		<view class="item-card">			
+			<slot></slot>			
 		</view>
 	</view>
 </template>

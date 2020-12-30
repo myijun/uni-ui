@@ -1,9 +1,10 @@
 <template>
 	<!-- <mu-webview-user-bind :bindSrc="bindWebSrc" @login="handleLogin" @message="handleMessage"></mu-webview-user-bind> -->
-	<!-- <web-view src="https://uniapp.dcloud.io/static/web-view.html"></web-view> -->
+	
 	<view>
+		<web-view src="https://uniapp.dcloud.io/static/web-view.html"></web-view>
 		<!-- <web-view v-if="src" :src="src"></web-view>		 -->
-		<mu-list>
+	<!-- 	<mu-list>
 
 			<mu-list-item v-for="(item,index) in datalist" :key="index" :item="item">
 				12312312
@@ -12,7 +13,7 @@
 
 		</mu-list>
 
-
+ -->
 
 	</view>
 
@@ -23,9 +24,9 @@
 </template>
 
 <script>
-	// import {
-	// 	MuWebviewUserBind
-	// } from '../../components/units/mu-webview-user-login/mu-webview-user-bind.vue';
+	import {
+		MuWebviewUserBind
+	} from '../../components/units/mu-webview-user-login/mu-webview-user-bind.vue';
 	import {
 		MuList
 	} from '../../mview-ui/components/mu-list/mu-list.vue';
@@ -104,7 +105,7 @@
 
 		},
 		components: {
-			// MuWebviewUserBind
+			MuWebviewUserBind,
 			MuList,
 			MuListItem,
 			uniList,
