@@ -5,6 +5,7 @@ import localLogin from './libs/util/location';
 import http from './libs/util/request';
 import optimization from './libs/util/optimization';
 import NumberClass from './libs/util/number';
+import pattern from './libs/util/pattern';
 const $y = {
 	error,
 	log,
@@ -12,7 +13,8 @@ const $y = {
 	localLogin,
 	http,
 	optimization,
-	'number': NumberClass
+	'number': NumberClass,
+	pattern
 }
 
 uni.$y = $y;
